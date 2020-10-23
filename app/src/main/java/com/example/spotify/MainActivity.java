@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         img.findViewById(R.id.img_musica);
         Glide.with(this).load("https://img.youtube.com/vi/CIFrr1dqj5M/0.jpg").into(img);
 
-        tocador = MediaPlayer.create(getApplicationContext(), R.raw.y2mate);
+        tocador = MediaPlayer.create(getApplicationContext(), R.raw.house);
     }
     protected void onResume(){
         super.onResume();
